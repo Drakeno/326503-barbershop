@@ -1,0 +1,74 @@
+body {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: normal;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+
+
+/* ========= Просто наброски ==========*/
+
+.item h1 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+main {
+  background: #f8f5f2 url("../img/tint.jpg") no-repeat 50% 0;
+}
+
+.index-content, .page-content {
+  background: #f8f5f2 url("../img/background.jpg") repeat 50% 0;
+}
+
+.main-header {
+  background: #000000;
+}
+
+.main-header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.features {
+  color: #f7f4f1;
+}
+
+.main-footer, .main-footer a {
+  background: #f8f5f2 url("../img/footer.jpg") repeat-x 50% 0;
+  color: #ffffff;
+}
+
+.btn {
+  padding: 16px 20px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  background: #000000;
+}
+
+.btn:hover, .btn:active {
+  background: #663d15;
+}
